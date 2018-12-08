@@ -1,0 +1,37 @@
+
+
+
+RobClaw                             Breakout/Pi/DC Motor
+
+LB IN + Not used
+LB IN - Not used
+
+M1+(Encoder Power - Blue Wire)      Blue
+M1-(Encoder Power - Green Wire)     Green
+
+M2+(Encoder Power - Blue Wire)      Blue
+M2-(Encoder Power - Green Wire)     Green
+
+EN1+(M1 Encode Signal - Red Wire)   White
+EN1-(M1 Encode Signal - Brown Wire) Yellow
+
+EN2+(M2 Encode Signal - Brown Wire) White
+EN2-(M2 Encode Signal - Red Wire)   Yellow
+
+S1                                  GPIO14/pin 8/TXD0
+S1+ Not used        
+S1-                                 GND
+S2                                  GPIO15/pin 10/RXD0
+S2+ Not used        
+S2-                                 GND
+S3 - Not Used
+S4 - Not Used
+S5 - Not Used
+
+
+minIMUv9        Pi
+
+SCL             GPIO03/pin 5/SCL1
+SDA             GPIO02/pin 3/SDA1
+GND             GND
+Vin             5VDC Power
