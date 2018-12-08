@@ -14,7 +14,7 @@ package myRobot.utilities;
 
 public class crc16{
 
-    public static int crc;
+    public int crc;
 
     public crc16(){
         // Constructor
@@ -45,14 +45,14 @@ public class crc16{
         //CRC of 0x80 0x00 0x20 should be 1F 38
         crc16 test = new crc16();
         test.crc_clear();
-        System.out.println(crc);
+        System.out.println(test.crc);
         test.crc_update(0x80);
-        System.out.println(crc);
+        System.out.println(test.crc);
         test.crc_update(0x00);
-        System.out.println(crc);
+        System.out.println(test.crc);
         test.crc_update(0x20);
-        System.out.println(crc);
-        System.out.println("CRC MSB: " + Integer.toHexString(crc >> 8));
-        System.out.println("CRC LSB: " + Integer.toHexString(crc & 0xFF));
+        System.out.println(test.crc);
+        System.out.println("CRC MSB: " + Integer.toHexString(test.crc >> 8));
+        System.out.println("CRC LSB: " + Integer.toHexString(test.crc & 0xFF));
      }
 }
