@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "myRobot",
+                "projectName": "myRobot",
+                "workingDirectory": "c:\\Users\\Kiet Duong\\Google Drive\\programming_projects\\myRobot",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "myRobot",
+                "projectName": "myRobot",
+                "workingDirectory": "c:\\Users\\Kiet Duong\\Google Drive\\programming_projects\\myRobot",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
